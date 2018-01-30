@@ -1,0 +1,7 @@
+<h1>Welcome, <%=current_user.username%></h1>
+
+<% @photos.each do |photo| %>
+  <li><a href="/photos/<%=photo.id%>"><%=photo.title%></a></li>
+<%end%>
+<br></br>
+<a href="/photos/new">Create Photo</a>
