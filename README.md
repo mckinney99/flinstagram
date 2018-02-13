@@ -30,3 +30,5 @@ Once 1-4 are implemented, we'll look at adding in authentication and authorizati
 6. As a logged in user, I can create a new photo. 
 7. As a logged in user, I can create a new comment on a photo. 
 8. As a site visitor, I can still view photos and comments, but I cannot create any new comments or photos.
+
+
